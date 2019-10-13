@@ -41,9 +41,22 @@ ex) 지폐 속의 5000, 10000 등을 인식
 3 - 2) 뒷면인 경우, x 좌표가 오른쪽 절반에 있는 것을 roi로 설정
 4) roi의 contour 개수가 적당한 것을 최종 roi로 지정
 
+ㄹ) 지폐 속 숫자 추출 프로그램
+
+1) grayscale이미지에서 가로 1줄짜리 kernel로 opening연산을 한 이미지를 빼서 길쭉한 세로 픽셀 제거
+2) 침식, 팽창 연산을 통해 돈의 숫자 부분의 후보 찾고, findcontour() 적용
+3) 데이터에 맞는 가로, 세로, 종횡비 최적화 후 roi 추출 (optimization.txt 참고)
+4) 가로, 세로 픽셀을 바꿔가며 침식,팽창연산 후 컨투어 넓이와 종횡비로 최종 후보 추출
+5) vconcat을 이용해 모든 후보를 세로로 합쳐서 저장
+
 ## 예시
-원본)
+### money recognition
+(원본)
 <img width="960" alt="5000f_0" src="https://user-images.githubusercontent.com/46870741/66060776-2ff68780-e579-11e9-8241-fe197d03e94d.png">
-추출)
+(결과)
 <img width="960" alt="5000f_1" src="https://user-images.githubusercontent.com/46870741/66060822-413f9400-e579-11e9-9ba2-a034f8edecac.png">
+### money detection
+(지폐 속 숫자 추출)
+<img width="367" alt="money" src="https://user-images.githubusercontent.com/46870741/66718470-4de8a580-ee1f-11e9-9e59-ed4501b5d2ce.png">
+
 
