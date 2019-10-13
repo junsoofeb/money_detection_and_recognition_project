@@ -1,0 +1,210 @@
+--- 1000    80 < 가로 <150    18< 세로 < 42
+ 
+index : 2 garo : 84 sero : 22 ratio : 3 area : 1848
+index : 4 garo : 123 sero : 28 ratio : 4 area : 3444
+index : 5 garo : 112 sero : 30 ratio : 3 area : 3360
+index : 16 garo : 126 sero : 28 ratio : 4 area : 3528
+index : 5 garo : 149 sero : 43 ratio : 3 area : 6407
+index : 9 garo : 107 sero : 26 ratio : 4 area : 2782
+index : 28 garo : 122 sero : 29 ratio : 4 area : 3538
+index : 10 garo : 106 sero : 32 ratio : 3 area : 3392
+index : 68 garo : 103 sero : 20 ratio : 5 area : 2060
+index : 59 garo : 121 sero : 32 ratio : 3 area : 3872
+index : 30 garo : 116 sero : 25 ratio : 4 area : 2900
+index : 28 garo : 116 sero : 26 ratio : 4 area : 3016
+index : 0 garo : 99 sero : 29 ratio : 3 area : 2871
+index : 3 garo : 105 sero : 35 ratio : 3 area : 3675
+index : 11 garo : 106 sero : 41 ratio : 2 area : 4346
+index : 11 garo : 95 sero : 27 ratio : 3 area : 2565
+index : 22 garo : 102 sero : 21 ratio : 4 area : 2142
+index : 3 garo : 82 sero : 19 ratio : 4 area : 1558
+index : 10 garo : 81 sero : 20 ratio : 4 area : 1620
+index : 10 garo : 82 sero : 26 ratio : 3 area : 2132
+
+---- 5000   71 < 가로 <150    11 < 세로 < 48
+
+index : 5 garo : 149 sero : 47 ratio : 3 area : 7003
+index : 46 garo : 111 sero : 29 ratio : 3 area : 3219
+index : 18 garo : 122 sero : 44 ratio : 2 area : 5368
+index : 32 garo : 126 sero : 18 ratio : 7 area : 2268
+index : 59 garo : 148 sero : 39 ratio : 4 area : 5772
+index : 34 garo : 129 sero : 34 ratio : 3 area : 4386
+index : 28 garo : 127 sero : 35 ratio : 3 area : 4445
+index : 40 garo : 109 sero : 30 ratio : 3 area : 3270 
+index :60    garo :105    sero :37    ratio :2 area :3885 min_x :183 min_y :174
+index :1    garo :116    sero :28    ratio :4 area :3248 min_x :141 min_y :274
+index :17    garo :113    sero :25    ratio :4 area :2825 min_x :131 min_y :219
+index :29    garo :92    sero :26    ratio :3 area :2392 min_x :188 min_y :187
+index :21    garo :101    sero :22    ratio :4 area :2222 min_x :134 min_y :199
+index :26    garo :116    sero :27    ratio :4 area :3132 min_x :75 min_y :239
+index :49    garo :141    sero :39    ratio :3 area :5499 min_x :187 min_y :191
+index :51    garo :130    sero :36    ratio :3 area :4680 min_x :191 min_y :197
+index :26    garo :82    sero :12    ratio :6 area :984 min_x :359 min_y :234
+index :25    garo :96    sero :23    ratio :4 area :2208 min_x :373 min_y :186
+index :46    garo :88    sero :19    ratio :4 area :1672 min_x :394 min_y :210
+index :37    garo :95    sero :22    ratio :4 area :2090 min_x :448 min_y :237
+index :14    garo :89    sero :20    ratio :4 area :1780 min_x :428 min_y :261
+index :29    garo :96    sero :20    ratio :4 area :1920 min_x :403 min_y :185
+index :26    garo :87    sero :21    ratio :4 area :1827 min_x :388 min_y :209
+index :31    garo :110    sero :34    ratio :3 area :3740 min_x :345 min_y :143
+index :24    garo :101    sero :28    ratio :3 area :2828 min_x :433 min_y :198
+index :33    garo :98    sero :24    ratio :4 area :2352 min_x :358 min_y :224
+index :24    garo :94    sero :23    ratio :4 area :2162 min_x :353 min_y :234
+index :80    garo :79    sero :17    ratio :4 area :1343 min_x :411 min_y :240
+index :120    garo :78    sero :21    ratio :3 area :1638 min_x :449 min_y :194
+index :66    garo :118    sero :27    ratio :4 area :3186 min_x :480 min_y :223
+index :31    garo :87    sero :37    ratio :2 area :3219 min_x :355 min_y :295 // 숫자가 박스에 비해 작게 나옴
+index :46    garo :81    sero :15    ratio :5 area :1215 min_x :323 min_y :
+index :28    garo :99    sero :26    ratio :3 area :2574 min_x :409 min_y :255
+index :57    garo :72    sero :21    ratio :3 area :1512 min_x :493 min_y :183
+index :37    garo :80    sero :24    ratio :3 area :1920 min_x :454 min_y :241
+index :27    garo :78    sero :18    ratio :4 area :1404 min_x :364 min_y :252
+
+
+---- 10000   86 < 가로 <171    16 < 세로 < 61
+
+index :14    garo :150    sero :34    ratio :4 area :5100 min_x :113 min_y :288
+index :18    garo :170    sero :45    ratio :3 area :7650 min_x :123 min_y :274
+index :10    garo :131    sero :31    ratio :4 area :4061 min_x :65 min_y :310
+index :32    garo :171    sero :38    ratio :4 area :6498 min_x :121 min_y :271
+index :24    garo :141    sero :31    ratio :4 area :4371 min_x :190 min_y :202
+index :29    garo :144    sero :26    ratio :5 area :3744 min_x :168 min_y :218
+index :4    garo :120    sero :35    ratio :3 area :4200 min_x :216 min_y :158
+index :1    garo :152    sero :43    ratio :3 area :6536 min_x :90 min_y :159
+index :6    garo :157    sero :43    ratio :3 area :6751 min_x :187 min_y :151
+index :8    garo :122    sero :20    ratio :6 area :2440 min_x :122 min_y :194
+index :31    garo :127    sero :43    ratio :2 area :5461 min_x :153 min_y :231
+index :20    garo :127    sero :33    ratio :3 area :4191 min_x :91 min_y :
+index :51    garo :141    sero :29    ratio :4 area :4089 min_x :136 min_y :190
+index :83    garo :94    sero :23    ratio :4 area :2162 min_x :171 min_y :99
+index :54    garo :112    sero :50    ratio :2 area :5600 min_x :274 min_y :61
+index :51    garo :108    sero :34    ratio :3 area :3672 min_x :201 min_y :162
+index :47    garo :125    sero :32    ratio :3 area :4000 min_x :149 min_y :189
+index :30    garo :145    sero :36    ratio :4 area :5220 min_x :114 min_y :157
+index :90    garo :118    sero :33    ratio :3 area :3894 min_x :161 min_y :131
+index :36    garo :114    sero :37    ratio :3 area :4218 min_x :136 min_y :215
+index :28    garo :130    sero :36    ratio :3 area :4680 min_x :76 min_y :180
+index :14    garo :144    sero :51    ratio :2 area :7344 min_x :56 min_y :243
+
+index :17    garo :138    sero :48    ratio :2 area :6624 min_x :462 min_y :257
+index :39    garo :124    sero :30    ratio :4 area :3720 min_x :405 min_y :226
+index :23    garo :119    sero :46    ratio :2 area :5474 min_x :364 min_y :242
+index :4    garo :135    sero :32    ratio :4 area :4320 min_x :459 min_y :242
+index :4    garo :135    sero :27    ratio :5 area :3645 min_x :437 min_y :238
+index :10    garo :91    sero :17    ratio :5 area :1547 min_x :413 min_y :163
+index :13    garo :128    sero :26    ratio :4 area :3328 min_x :427 min_y :211
+index :21    garo :145    sero :32    ratio :4 area :4640 min_x :431 min_y :199
+index :39    garo :101    sero :33    ratio :3 area :3333 min_x :380 min_y :237
+index :44    garo :87    sero :19    ratio :4 area :1653 min_x :341 min_y :247
+index :33    garo :110    sero :26    ratio :4 area :2860 min_x :372 min_y :266
+index :49    garo :108    sero :28    ratio :3 area :3024 min_x :397 min_y :214
+index :34    garo :114    sero :37    ratio :3 area :4218 min_x :376 min_y :287
+index :6    garo :118    sero :60    ratio :1 area :7080 min_x :307 min_y :235
+index :12    garo :119    sero :28    ratio :4 area :3332 min_x :351 min_y :224
+index :28    garo :106    sero :33    ratio :3 area :3498 min_x :379 min_y :191
+index :19    garo :109    sero :39    ratio :2 area :4251 min_x :410 min_y :240
+
+---- 50000   78 < 가로 <190    11 < 세로 < 65
+
+index :5    garo :189    sero :41    ratio :4 area :7749 min_x :61 min_y :191
+index :7    garo :171    sero :64    ratio :2 area :10944 min_x :104 min_y :242
+index :7    garo :150    sero :50    ratio :3 area :7500 min_x :117 min_y :234
+index :9    garo :140    sero :42    ratio :3 area :5880 min_x :123 min_y :276
+index :9    garo :129    sero :27    ratio :4 area :3483 min_x :136 min_y :200
+index :17    garo :148    sero :36    ratio :4 area :5328 min_x :159 min_y :250
+index :8    garo :133    sero :31    ratio :4 area :4123 min_x :143 min_y :262     --007
+index :10    garo :138    sero :33    ratio :4 area :4554 min_x :138 min_y :272
+index :17    garo :122    sero :34    ratio :3 area :4148 min_x :145 min_y :234
+index :42    garo :140    sero :34    ratio :4 area :4760 min_x :140 min_y :236
+index :49    garo :167    sero :59    ratio :2 area :9853 min_x :116 min_y :208
+index :49    garo :140    sero :30    ratio :4 area :4200 min_x :167 min_y :223
+index :31    garo :121    sero :34    ratio :3 area :4114 min_x :158 min_y :224
+index :37    garo :157    sero :74    ratio :2 area :11618 min_x :197 min_y :238
+index :11    garo :143    sero :33    ratio :4 area :4719 min_x :160 min_y :231
+index :34    garo :162    sero :32    ratio :5 area :5184 min_x :90 min_y :223
+index :36    garo :133    sero :28    ratio :4 area :3724 min_x :136 min_y :190
+index :31    garo :135    sero :34    ratio :3 area :4590 min_x :138 min_y :204
+index :17    garo :140    sero :30    ratio :4 area :4200 min_x :103 min_y :197
+index :8    garo :171    sero :48    ratio :3 area :8208 min_x :121 min_y :216
+index :6    garo :112    sero :24    ratio :4 area :2688 min_x :221 min_y :262
+index :8    garo :160    sero :34    ratio :4 area :5440 min_x :152 min_y :262
+index :0    garo :112    sero :36    ratio :3 area :4032 min_x :291 min_y :216
+index :0    garo :137    sero :37    ratio :3 area :5069 min_x :204 min_y :253
+index :24    garo :149    sero :50    ratio :2 area :7450 min_x :110 min_y :257
+
+index :15    garo :101    sero :26    ratio :3 area :2626 min_x :288 min_y :249
+index :2    garo :138    sero :36    ratio :3 area :4968 min_x :475 min_y :262
+index :10    garo :103    sero :18    ratio :5 area :1854 min_x :423 min_y :224
+index :12    garo :108    sero :27    ratio :4 area :2916 min_x :411 min_y :193
+index :20    garo :91    sero :12    ratio :7 area :1092 min_x :397 min_y :200 세로가 작아서 ratio가 큼
+index :15    garo :78    sero :24    ratio :3 area :1872 min_x :387 min_y :210
+index :96    garo :88    sero :29    ratio :3 area :2552 min_x :374 min_y :129
+index :42    garo :103    sero :23    ratio :4 area :2369 min_x :385 min_y :226
+index :16    garo :105    sero :22    ratio :4 area :2310 min_x :378 min_y :282
+index :31    garo :111    sero :25    ratio :4 area :2775 min_x :392 min_y :251
+index :36    garo :131    sero :35    ratio :3 area :4585 min_x :503 min_y :236
+index :71    garo :103    sero :21    ratio :4 area :2163 min_x :331 min_y :189
+index :33    garo :123    sero :52    ratio :2 area :6396 min_x :414 min_y :201
+index :51    garo :126    sero :30    ratio :4 area :3780 min_x :423 min_y :207
+index :24    garo :127    sero :46    ratio :2 area :5842 min_x :466 min_y :154
+index :14    garo :128    sero :24    ratio :5 area :3072 min_x :427 min_y :218
+index :19    garo :130    sero :36    ratio :3 area :4680 min_x :462 min_y :174
+index :0    garo :130    sero :33    ratio :3 area :4290 min_x :476 min_y :182
+index :13    garo :102    sero :22    ratio :4 area :2244 min_x :466 min_y :167
+index :6    garo :114    sero :19    ratio :6 area :2166 min_x :397 min_y :237
+index :15    garo :123    sero :20    ratio :6 area :2460 min_x :410 min_y :235
+index :64    garo :113    sero :30    ratio :3 area :3390 min_x :340 min_y :173
+index :42    garo :134    sero :54    ratio :2 area :7236 min_x :490 min_y :216
+index :28    garo :100    sero :20    ratio :5 area :2000 min_x :389 min_y :248
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
