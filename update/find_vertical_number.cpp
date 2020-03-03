@@ -114,8 +114,11 @@ int find_hand(Mat hsv_img, Mat origin)
 void vertical_number(Mat img)
 {
 
+	// 세로 이미지 저장용
+	vector<Mat> V_roi_vector;
+
 	Mat copy = img.clone();
-	Mat gray, canny, blur,result;
+	Mat gray, canny, blur, result;
 	cvtColor(img, gray, COLOR_BGR2GRAY);
 	GaussianBlur(gray, blur, Size(5, 5), 0);
 	Canny(blur, canny, 50, 150);
@@ -284,6 +287,8 @@ void vertical_number(Mat img)
 
 	}
 
+
+	// 후보들 추출
 	for (int i = 0; i < 20; i++)
 	{
 		if (candidate[i].max_x != -1)
@@ -293,7 +298,16 @@ void vertical_number(Mat img)
 			cout << "max_y : " << candidate[i].max_y << endl;
 			cout << "min_y : " << candidate[i].min_y << endl;
 			rectangle(img, Point(candidate[i].min_x - 10, candidate[i].min_y -10), Point(candidate[i].max_x + 10, candidate[i].max_y + 10), Scalar(0, 255, 0), 4);
+			Mat roi(copy, Rect(candidate[i].min_x - 10, candidate[i].min_y - 10, candidate[i].max_x - candidate[i].min_x + 20, candidate[i].max_y - candidate[i].min_y + 20));
+			
+			V_roi_vector.push_back(roi.clone());
 		}
+	}
+
+	// 세로로 적힌 이미지들 출력
+	for (int i = 0; i < V_roi_vector.size(); i++)
+	{
+		show(V_roi_vector[i]);
 	}
 
 
@@ -665,6 +679,7 @@ int main()
 
 			// 5000인지 50000인지 구별하기 위해서 세로로 적힌 부분 찾는 과정
 			vertical_number(img);
+			
 
 
 			if (j == filenames.size() - 1)
@@ -674,7 +689,7 @@ int main()
 			}
 		}
 
-	
+
 
 	return 0;
 }
